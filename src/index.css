@@ -11,3 +11,98 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  padding: 2rem 0rem;
+}
+
+.navbar-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.navbar-image img {
+  width: 350px;
+  height: auto;
+}
+
+.footer {
+  background-color: #434343;
+}
+
+.footer .container {
+  width: 100%;
+}
+
+.footer .container h1 {
+  text-align: center;
+  color: white;
+}
+
+.homepage-description {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.homepage-description h3 {
+  /* width: 80%; */
+  font-weight: 400;
+}
+
+.homepage-products-category {
+
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0rem;
+}
+
+.homepage-products {
+  height: 400px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 8px 1px #434343;
+}
+
+/* .homepage-products:hover {
+  cursor: pointer;
+  background-blend-mode: overlay;
+  background-color: black;
+  opacity: 0.2;
+} */
+
+.wheat-product {
+  background-image: url(/src/assets/Home-Desktop-Flour.webp);
+}
+
+
+.salt-product {
+  background-image: url(/src/assets/Home-Desktop-Salt.webp);
+}
+
+.pasta-product {
+  background-image: url(/src/assets/Home-Desktop-Pasta.webp);
+}
+
+.homepage-products button {
+  padding: 1.4rem 0rem;
+  width: 250px;
+  background-color: #00A990;
+  border: none;
+  color: white;
+}
+
+.homepage-products button:hover {
+  border: 1px solid #00A990;
+  background-color: white;
+  color: #00A990;
+  cursor: pointer;
+}
