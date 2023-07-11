@@ -12,6 +12,12 @@ code {
     monospace;
 }
 
+:root {
+  --primary-green: #00A990;
+  --dark-gray: #434343;
+  --white: #ffffff;
+}
+
 .container {
   width: 85%;
   margin: 0 auto;
@@ -32,7 +38,7 @@ code {
 }
 
 .footer {
-  background-color: #434343;
+  background-color: var(--dark-gray);
 }
 
 .footer .container {
@@ -69,7 +75,7 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 1px 1px 8px 1px #434343;
+  box-shadow: 1px 1px 8px 1px var(--dark-gray);
 }
 
 /* .homepage-products:hover {
@@ -95,14 +101,14 @@ code {
 .homepage-products button {
   padding: 1.4rem 0rem;
   width: 250px;
-  background-color: #00A990;
+  background-color: var(--primary-green);
   border: none;
-  color: white;
+  color: var(--white);
 }
 
 .homepage-products button:hover {
-  border: 1px solid #00A990;
-  background-color: white;
-  color: #00A990;
+  border: 1px solid var(--primary-green);
+  background-color: var(--white);
+  color: var(--primary-green);
   cursor: pointer;
 }
