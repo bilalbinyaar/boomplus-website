@@ -37,19 +37,6 @@ code {
   height: auto;
 }
 
-.footer {
-  background-color: var(--dark-gray);
-}
-
-.footer .container {
-  width: 100%;
-}
-
-.footer .container h1 {
-  text-align: center;
-  color: white;
-}
-
 .homepage-description {
   width: 100%;
   display: flex;
@@ -78,13 +65,6 @@ code {
   box-shadow: 1px 1px 8px 1px var(--dark-gray);
 }
 
-/* .homepage-products:hover {
-  cursor: pointer;
-  background-blend-mode: overlay;
-  background-color: black;
-  opacity: 0.2;
-} */
-
 .wheat-product {
   background-image: url(/src/assets/Home-Desktop-Flour.webp);
 }
@@ -111,4 +91,63 @@ code {
   background-color: var(--white);
   color: var(--primary-green);
   cursor: pointer;
+}
+
+
+.footer {
+  background-color: var(--dark-gray);
+}
+
+.footer-wapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.footer-col img {
+  width: 250px;
+}
+
+.footer-col h2 {
+  color: var(--white);
+}
+
+.footer-col-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-col-items a {
+  text-decoration: none;
+  color: var(--white);
+  margin-bottom: 8px;
+}
+
+.footer-col-item {
+  display: flex;
+  margin-bottom: 8px;
+  align-items: center;
+}
+
+.col-icon {
+  margin-right: 8px;
+  color: var(--primary-green);
+}
+
+.col-value {
+  color: var(--white);
+}
+
+.width-fix {
+  width: 25%;
+}
+
+.social-icons {
+  color: var(--primary-green);
+}
+
+.social-icons a {
+  margin-right: 12px;
+  color: var(--primary-green);
+  font-size: 20px;
 }
