@@ -1,9 +1,12 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import Navbar from '../components/Navbar';
+import { Link } from 'react-router-dom';
 
 const Homepage = () => {
   return (
     <div className="homepage">
+      <Navbar />
       <Helmet>
         <title>
           Boom Plus | Pasta, Wheat Flour & Salt Manufacturing & Export
@@ -26,7 +29,9 @@ const Homepage = () => {
           </div>
           <div className="homepage-products-category">
             <div className="homepage-products salt-product">
-              <button>Salt</button>
+              <Link to="/home-page-salt-product">
+                <button>Salt</button>
+              </Link>
             </div>
             <div className="homepage-products pasta-product">
               <button>Spaghetti & Macaroni</button>

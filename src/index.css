@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
 code {
@@ -57,7 +58,7 @@ code {
 
 .homepage-products {
   height: 400px;
-  width: 500px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
