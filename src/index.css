@@ -149,7 +149,6 @@ code {
   font-size: 20px;
 }
 
-
 /* SALT NAV CSS */
 .salt-nav-wrapper {
   display: flex;
@@ -159,4 +158,33 @@ code {
 
 .salt-nav-logo img {
   width: 140px;
+}
+
+.salt-nav-menu {
+  /* Add your styling for the parent menu here */
+}
+
+.salt-nav-menu-items {
+  /* Add your styling for the menu items here */
+}
+
+.salt-nav-menu-item {
+  /* Add your styling for the menu item here */
+  position: relative;
+}
+
+.dropdown-menu {
+  /* Add your styling for the dropdown menu here */
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.dropdown-menu-item {
+  /* Add your styling for the dropdown menu items here */
+}
+
+.salt-nav-menu-item.dropdown:hover .dropdown-menu {
+  display: block;
 }
