@@ -28,20 +28,20 @@ body {
 h1 {
   font-size: 44px;
   font-weight: 600;
-  line-height: 36px;
+  line-height: 45px;
 }
 
 h2 {
   font-weight: 700;
-  font-size: 32px;
-  line-height: 19px;
+  font-size: 35px;
+  line-height: px;
   color: var(--color-day-black);
 }
 
 h3 {
   font-weight: 700;
   font-size: 28px;
-  line-height: 16px;
+  line-height: 25px;
   color: var(--color-day-black);
 }
 
@@ -315,13 +315,15 @@ button {
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   height: 60vh;
+  display: flex;
+  align-items: center;
 }
 
-/* .salt-banner-content {
+.salt-banner-content {
   display: flex;
   justify-content: center;
-  align-self: center;
 }
 
 .salt-banner-content-left {
@@ -349,4 +351,62 @@ button {
 .salt-banner-content-left-bottom h1 {
   color: var(--primary-green);
   font-size: 54px;
-} */
+  line-height: 55px;
+  margin-top: 3rem;
+  text-transform: capitalize;
+}
+
+.btn-yes{
+  padding: 0.6rem 1.2rem;
+  width: 15%;
+  margin-top: 0.6rem;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--white);
+  font-weight: 600;
+  margin-right: 0.8rem;
+}
+
+.btn-yes:hover {
+  background-color: var(--dark-gray);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.get-price-btn{
+  padding: 0.6rem 1.2rem;
+  width: 15%;
+  margin-top: 0.6rem;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--primary-green);
+  color: var(--white);
+  font-weight: 600;
+  margin-right: 0.8rem;
+}
+
+.get-price-btn:hover {
+  background-color: var(--dark-gray);
+  color: var(--white);
+  cursor: pointer;
+}
+
+
+/* salt-process-title css */
+.salt-process-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.salt-process-title h2 {
+  text-transform: capitalize;
+}
+
+.salt-processes-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
