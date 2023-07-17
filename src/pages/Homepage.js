@@ -8,6 +8,10 @@ const Homepage = () => {
         <title>
           Boom Plus | Pasta, Wheat Flour & Salt Manufacturing & Export
         </title>
+        <meta
+          name="description"
+          content="Boom Plus Co. manufactures and exports Pasta, Wheat Flour and Salt. Our products are known around Africa and the Americas for high quality and reliability."
+        />
       </Helmet>
       <div className="container">
         <div className="homepage-content-wrapper">
