@@ -85,9 +85,7 @@ code {
 }
 
 .homepage-products button:hover {
-  border: 1px solid var(--primary-green);
-  background-color: var(--white);
-  color: var(--primary-green);
+  background-color: var(--dark-gray);
   cursor: pointer;
 }
 
@@ -150,6 +148,10 @@ code {
 }
 
 /* SALT NAV CSS */
+.salt-navbar .container {
+  padding: 1rem 0rem;
+}
+
 .salt-nav-wrapper {
   display: flex;
   align-items: center;
@@ -160,31 +162,100 @@ code {
   width: 140px;
 }
 
-.salt-nav-menu {
-  /* Add your styling for the parent menu here */
-}
-
 .salt-nav-menu-items {
-  /* Add your styling for the menu items here */
+  display: flex;
 }
 
 .salt-nav-menu-item {
-  /* Add your styling for the menu item here */
+  list-style: none;
+  padding: 0.5rem;
+  margin: 0 0.2rem;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.salt-nav-menu-item:hover {
+  color: var(--primary-green);
+  cursor: pointer;
+}
+
+.dropdown svg {
+  font-size: 16px;
+  padding-left: 0.2rem;
 }
 
 .dropdown-menu {
-  /* Add your styling for the dropdown menu here */
+  background-color: var(--white);
+  padding: 1rem 0.2rem 1rem 1rem;
   display: none;
   position: absolute;
+  width: 100%;
   top: 100%;
-  left: 0;
+  /* left: 0; */
+  box-shadow: 1px 1px 8px 1px var(--dark-gray);
+
 }
 
 .dropdown-menu-item {
-  /* Add your styling for the dropdown menu items here */
+  width: 100%;
+  list-style: none;
+  padding: 0.5rem;
+  color: var(--dark-gray);
+}
+
+.dropdown-menu-item:hover {
+  color: var(--primary-green);
+  cursor: pointer;
 }
 
 .salt-nav-menu-item.dropdown:hover .dropdown-menu {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.salt-nav-account button {
+  background-color: var(--primary-green);
+  border: none;
+  text-decoration: none;
+  padding: 0.7rem 1.6rem;
+}
+
+.salt-nav-account button a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.salt-nav-account button:hover {
+  background-color: var(--dark-gray);
+  cursor: pointer;
+}
+
+.salt-nav-language {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.salt-nav-language img {
+  width: 20px;
+  margin: 0 0.3rem;
+  border-radius: 50%;
+}
+
+.salt-nav-language img:hover {
+  cursor: pointer;
+  box-shadow: 0px 1px 5px 1px var(--dark-gray);
+}
+
+/* SALT BANNER CSS */
+.salt-banner {
+  background-blend-mode: overlay;
+  background-color: var(--dark-gray);
+  background-image: url(/src/assets/salt/salt-home-banner.jpg);
+  height: 100%;
+  width: 100%;
 }
