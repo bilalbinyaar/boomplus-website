@@ -1,12 +1,11 @@
 import React from 'react';
+import SaltNav from '../components/salt/SaltNav';
 
 const SaltHomepage = () => {
   return (
-    <div>
-      <div className="container">
-        <h1>Salt</h1>
-      </div>
-    </div>
+    <React.Fragment>
+      <SaltNav />
+    </React.Fragment>
   );
 };
 
