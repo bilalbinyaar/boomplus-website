@@ -13,7 +13,7 @@ code {
 }
 
 :root {
-  --primary-green: #00A990;
+  --primary-green: #00a990;
   --dark-gray: #434343;
   --white: #ffffff;
 }
@@ -45,15 +45,14 @@ code {
 }
 
 .homepage-description h3 {
-  /* width: 80%; */
   font-weight: 400;
 }
 
 .homepage-products-category {
-
   display: flex;
   justify-content: space-between;
   margin: 2rem 0rem;
+  box-shadow: 1px 1px 8px 1px var(--dark-gray);
 }
 
 .homepage-products {
@@ -62,13 +61,11 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 1px 1px 8px 1px var(--dark-gray);
 }
 
 .wheat-product {
   background-image: url(/src/assets/Home-Desktop-Flour.webp);
 }
-
 
 .salt-product {
   background-image: url(/src/assets/Home-Desktop-Salt.webp);
@@ -92,7 +89,6 @@ code {
   color: var(--primary-green);
   cursor: pointer;
 }
-
 
 .footer {
   background-color: var(--dark-gray);
