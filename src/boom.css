@@ -29,12 +29,14 @@ h1 {
   font-size: 44px;
   font-weight: 600;
   line-height: 45px;
+  margin: 0;
 }
 
 h2 {
   font-weight: 700;
   font-size: 35px;
   line-height: px;
+  margin: 0;
   color: var(--color-day-black);
 }
 
@@ -42,13 +44,21 @@ h3 {
   font-weight: 700;
   font-size: 28px;
   line-height: 25px;
+  margin: 0;
+  color: var(--color-day-black);
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 20px;
+  margin: 0;
   color: var(--color-day-black);
 }
 
 p {
   font-weight: 400;
   font-size: 14px;
-  margin-top: 8px;
   color: var(--color-day-black);
 }
 
@@ -409,4 +419,130 @@ button {
   justify-content: space-between;
   align-items: center;
   margin-top: 1rem;
+}
+
+.salt-process {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 1rem 0; */
+  width: 70%;
+  margin: 0 1rem;
+  border: 1px solid var(--primary-green);
+}
+
+.salt-process h4 {
+  background-color: var(--primary-green);
+  color: var(--white);
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.salt-process p {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.salt-process img {
+  width: 100%;
+  border-top: 1px solid var(--primary-green);
+}
+
+/* SALT SALES CONTACT CSS */
+.cta-sales-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-sales-contact button {
+  background-color: var(--primary-green);
+  color: var(--white);
+  border: none;
+  padding: 0.8rem;
+  width: 30%;
+  margin-bottom: 0.8rem;
+  border-radius: 8px;
+}
+
+.cta-sales-contact button:hover {
+  background-color: var(--dark-gray);
+  cursor: pointer;
+}
+
+.sales-contact-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.sales-contact-content-right {
+  height: 50vh;
+  width: 100%;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-image: url(/src/assets/salt/Salt-Introduction.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sales-contact-content-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sales-contact-content h3 {
+  color: var(--white);
+  margin-bottom: 1.4rem;
+}
+
+.sales-contact-content button {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--primary-green);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.sales-contact-content button:hover {
+  background-color: var(--dark-gray);
+} 
+
+.sales-contact-content button svg {
+  margin-right: 0.8rem;
+  font-size: 18px;
+}
+
+.sales-contact-content-left {
+  width: 100%;
+  padding: 1rem 2.4rem 1rem 2.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--primary-green);
+}
+
+.sales-contact-content-left h3 {
+  color: var(--white);
+  margin-bottom: 0.6rem;
+}
+
+.sales-contact-content-left p {
+  margin-bottom: 1.4rem;
+  text-align: justify;
+  color: var(--dark-gray);
 }
