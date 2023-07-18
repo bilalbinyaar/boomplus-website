@@ -29,7 +29,11 @@ SaltContactSales = () => {
                             </button>
                         </div>
                     </div>
-                </div>  
+                </div> 
+                <div className='cta-bottom-sales'>
+                    <h3>Are you looking for the best salt with the best price in the market? Talk with our sales team.</h3>
+                    <button>Get The Best Price</button>
+                </div> 
             </div>
         </div>
         

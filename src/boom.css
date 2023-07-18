@@ -546,3 +546,33 @@ button {
   text-align: justify;
   color: var(--dark-gray);
 }
+
+.cta-bottom-sales {
+  background-color: var(--dark-gray);
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-bottom-sales h3 {
+  color: var(--white);
+  width: 52%;
+  line-height: 38px;
+}
+
+.cta-bottom-sales button {
+  width: 30%;
+  background-color: var(--primary-green);
+  color: var(--white);
+  height: 5vh;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.cta-bottom-sales button:hover {
+  background-color: var(--white);
+  color: var(--dark-gray);
+  cursor: pointer;
+}
