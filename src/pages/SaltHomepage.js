@@ -3,6 +3,7 @@ import SaltNav from '../components/salt/SaltNav';
 import SaltBanner from '../components/salt/SaltBanner';
 import SaltProcesses from '../components/salt/SaltProcesses';
 import SaltContactSales from '../components/salt/SaltContactSales';
+import SaltStates from '../components/salt/SaltStates';
 
 const SaltHomepage = () => {
   return (
@@ -11,6 +12,7 @@ const SaltHomepage = () => {
       <SaltBanner />
       <SaltProcesses />
       <SaltContactSales />
+      <SaltStates />
     </React.Fragment>
   );
 };

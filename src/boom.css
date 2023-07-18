@@ -559,6 +559,7 @@ button {
   color: var(--white);
   width: 52%;
   line-height: 38px;
+  font-size: 22px;
 }
 
 .cta-bottom-sales button {
