@@ -36,7 +36,7 @@ h1 {
 h2 {
   font-weight: 700;
   font-size: 35px;
-  line-height: px;
+  line-height: 35px;
   margin: 0;
   color: var(--color-day-black);
 }
@@ -44,7 +44,7 @@ h2 {
 h3 {
   font-weight: 700;
   font-size: 28px;
-  line-height: 25px;
+  line-height: 32px;
   margin: 0;
   color: var(--color-day-black);
 }
@@ -61,6 +61,7 @@ p {
   font-weight: 400;
   font-size: 14px;
   color: var(--color-day-black);
+  line-height: 20px;
 }
 
 li {
@@ -172,6 +173,8 @@ button {
 
 .footer-col h2 {
   color: var(--white);
+  font-size: 24px;
+    margin-bottom: 0.8rem;
 }
 
 .footer-col-items {
