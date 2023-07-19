@@ -366,7 +366,7 @@ button {
   text-transform: capitalize;
 }
 
-.btn-yes{
+.btn-yes {
   padding: 0.6rem 1.2rem;
   width: 15%;
   margin-top: 0.6rem;
@@ -383,7 +383,7 @@ button {
   cursor: pointer;
 }
 
-.get-price-btn{
+.get-price-btn {
   padding: 0.6rem 1.2rem;
   width: 15%;
   margin-top: 0.6rem;
@@ -400,7 +400,6 @@ button {
   color: var(--white);
   cursor: pointer;
 }
-
 
 /* salt-process-title css */
 .salt-process-title {
@@ -520,7 +519,7 @@ button {
 
 .sales-contact-content button:hover {
   background-color: var(--dark-gray);
-} 
+}
 
 .sales-contact-content button svg {
   margin-right: 0.8rem;
@@ -587,4 +586,7 @@ button {
 
 .stats-counter {
   padding: 1rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
