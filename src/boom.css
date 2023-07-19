@@ -577,3 +577,14 @@ button {
   color: var(--dark-gray);
   cursor: pointer;
 }
+
+/* salt-stats CSS */
+.section-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.stats-counter {
+  padding: 1rem 0rem;
+}
