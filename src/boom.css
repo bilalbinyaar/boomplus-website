@@ -11,6 +11,7 @@ body {
   --primary-green: #00a990;
   --dark-gray: #434343;
   --white: #ffffff;
+  --golden: #BE9A30;
 }
 
 .container {
@@ -585,8 +586,27 @@ button {
 }
 
 .stats-counter {
-  padding: 1rem 0rem;
+  padding: 2rem 0rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.counter-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ml-counter {
+  margin-left: 0.4rem;
+}
+
+.counter-top h2 {
+  color: var(--golden);
+}
+
+.counter-item h3 {
+  font-weight: 500;
+  margin-top: 0.8rem;
 }

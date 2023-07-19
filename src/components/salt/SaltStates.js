@@ -13,7 +13,7 @@ const SaltStates = () => {
   const branchTotalCount = 4;
   const clientTotalCount = 20;
 
-  const duration = 1500; // Duration in milliseconds
+  const duration = 2000; // Duration in milliseconds
 
   useEffect(() => {
     const startCounter = (ref, totalCount) => {
@@ -73,22 +73,37 @@ const SaltStates = () => {
         </div>
         <div className="salt-stats-wrapper">
           <div className="stats-counter">
-            <div className="counter-item" ref={projectCountRef}>
-              <h2>
-                {projectCount} {'MT/day'}
-              </h2>
+            <div className="counter-item" >
+                <div className='counter-top'>
+                    <h2 ref={projectCountRef}>
+                        {projectCount} 
+                    </h2>
+                    <h2 className='ml-counter'>
+                        MT/day
+                    </h2>
+                </div>
               <h3>Salt Production Capability</h3>
             </div>
-            <div className="counter-item" ref={branchCountRef}>
-              <h2>{branchCount}+</h2>
+            <div className="counter-item" >
+                <div className='counter-top'>
+                    <h2 ref={branchCountRef}>{branchCount}</h2>
+                    <h2 className='ml-counter'>
+                       +
+                    </h2>
+                </div>
               <h3>Salt Brands</h3>
             </div>
-            <div className="counter-item" ref={clientCountRef}>
-              <h2>{clientCount}+ Countries</h2>
-              <h3>Our Export References</h3>{' '}
+            <div className="counter-item" >
+                <div className='counter-top'>
+                    <h2 ref={clientCountRef}>{clientCount}</h2>
+                    <h2 className='ml-counter'>
+                       + Countries
+                    </h2>
+                </div>
+              <h3>Our Export References</h3>
             </div>
           </div>
-          <div className="stats-content">content</div>
+          <div className="stats-content"></div>
         </div>
       </div>
     </div>
