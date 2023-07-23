@@ -14,6 +14,7 @@ const SaltSlider = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2500,
+    arrows: true,
     // fade: true,
     // cssEase: 'linear',
   };
