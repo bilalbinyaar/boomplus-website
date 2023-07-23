@@ -4,6 +4,8 @@ import SaltBanner from '../components/salt/SaltBanner';
 import SaltProcesses from '../components/salt/SaltProcesses';
 import SaltContactSales from '../components/salt/SaltContactSales';
 import SaltStates from '../components/salt/SaltStates';
+import SaltMetric from '../components/salt/SaltMetric';
+import SaltSlider from '../components/salt/SaltSlider';
 
 const SaltHomepage = () => {
   return (
@@ -13,6 +15,8 @@ const SaltHomepage = () => {
       <SaltProcesses />
       <SaltContactSales />
       <SaltStates />
+      <SaltMetric />
+      <SaltSlider />
     </React.Fragment>
   );
 };

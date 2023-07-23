@@ -613,3 +613,42 @@ button {
   font-weight: 500;
   margin-top: 0.8rem;
 }
+
+/* SALT METRICS */
+.salt-metric   {
+  width: 100%;
+  background-image: url(../src/assets/salt/Low-photo-banner-salt-page.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.salt-metric-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.metric-content {
+  width: 300px;
+  padding: 3rem;
+  background-color: var(--primary-green);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.metric-content h3 {
+  color: var(--white);
+  text-align: center;
+}
+
+.metric-content h2 {
+  color: var(--white);
+  text-align: center;
+  margin-bottom: 1rem;
+}
