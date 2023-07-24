@@ -13,6 +13,7 @@ body {
   --white: #ffffff;
   --golden: #BE9A30;
   --light-gray: #E4E4E4;
+  --dark-green: #09777b;
 }
 
 .container {
@@ -678,6 +679,25 @@ button {
 
 .slide-td {
   width: 95%;
+  height: 100px;
   padding: 1rem;
   background-color: var(--light-gray);
+}
+
+.slide-td h4{
+  font-size: 18px;
+  color: var(--dark-green);
+}
+
+.slide-price {
+  display: flex;
+  align-items: center;
+}
+
+.slide-price span {
+  margin-right: 1rem;
+}
+
+.slide-price span h4{
+  color: var(--primary-green);
 }

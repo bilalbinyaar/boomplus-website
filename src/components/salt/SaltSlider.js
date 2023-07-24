@@ -31,8 +31,11 @@ const SaltSlider = () => {
       <div className='slide-product'>
         <img src={slide_1} alt="banner-slide" />
         <div className='slide-td'>
-          <h3>Title</h3>
-          <p>description</p>
+          <h4>Diamond Salt (1Kg) | Wholesale Edible Salt</h4>
+          <div className='slide-price'>
+            <span><h4>$137</h4></span>
+            <span><p>/ Ton-FOB</p></span>
+          </div>
         </div>
       </div>
       
@@ -41,8 +44,11 @@ const SaltSlider = () => {
       <div className='slide-product'>
         <img src={slide_2} alt="banner-slide" />
         <div className='slide-td'>
-          <h3>Title</h3>
-          <p>description</p>
+          <h4>Tower Salt (25kg) | High Quality Egyptian Salt</h4>
+          <div className='slide-price'>
+            <span><h4>$81</h4></span>
+            <span><p>/ Ton-FOB</p></span>
+          </div>
         </div>
       </div>
     </div>,
@@ -50,8 +56,11 @@ const SaltSlider = () => {
       <div className='slide-product'>
         <img src={slide_3} alt="banner-slide" />
         <div className='slide-td'>
-          <h3>Title</h3>
-          <p>description</p>
+          <h4>Yamy Red (1Kg) | The best Egyptian salt</h4>
+          <div className='slide-price'>
+            <span><h4>$151</h4></span>
+            <span><p>/ Ton-FOB</p></span>
+          </div>
         </div>
       </div>
     </div>,
@@ -59,8 +68,11 @@ const SaltSlider = () => {
       <div className='slide-product'>
         <img src={slide_4} alt="banner-slide" />
         <div className='slide-td'>
-          <h3>Title</h3>
-          <p>description</p>
+          <h4>Yamy Red (5Kg) | The best Egyptian salt</h4>
+          <div className='slide-price'>
+            <span><h4>$116</h4></span>
+            <span><p>/ Ton-FOB</p></span>
+          </div>
         </div>
       </div>
     </div>,
