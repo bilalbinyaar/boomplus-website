@@ -72,6 +72,17 @@ li {
 
 button {
   font-size: 16px;
+  background-color: var(--primary-green);
+  color: var(--white);
+  border: none;
+  text-decoration: none;
+  padding: 0.8rem 1.6rem;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: var(--dark-gray);
+  cursor: pointer;
 }
 
 @media screen and (max-width: 568px) {
@@ -380,6 +391,7 @@ button {
   border: none;
   border-radius: 8px;
   background-color: var(--white);
+  color: var(--dark-gray);
   font-weight: 600;
   margin-right: 0.8rem;
 }
@@ -657,6 +669,12 @@ button {
 }
 
 
+/* SALT SLIDER */
+
+.salt-slider .container{
+  padding: 3rem 0;
+}
+
 .slide-div {
   margin-top: 1rem;
 }
@@ -700,4 +718,91 @@ button {
 
 .slide-price span h4{
   color: var(--primary-green);
+}
+
+.visit-shop {
+  margin-top: 2rem;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* SALT FEATUES */
+.salt-features {
+  background-image: url(/src/assets/salt/Salt-Shipmen-third-batch-6-scaled.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.salt-features .container {
+  padding: 3rem 0rem;
+}
+
+.features-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.features-left {
+  width: 100%;
+}
+
+.features-right {
+  width: 100%;
+}
+
+.features-right-content{
+  width: 100%;
+}
+
+.features-right-content h3 {
+  color: var(--primary-green);
+}
+
+.features-right-content p {
+  color: var(--white);
+  text-align: justify;
+}
+
+.features-left-content {
+  padding: 2rem;
+  background-color: var(--white);
+  width: 50%;
+}
+
+.features-inner {
+  display: flex;
+  align-items: center;
+}
+
+.features-icon {
+  margin-right: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-icon svg {
+  font-size: 20px;
+  color: var(--primary-green);
+}
+
+.features-inner span p {
+  color: var(--primary-green);
+}
+
+/* Salt Certificates CSS */
+.salt-certificates .container{
+  padding: 3rem 0;
 }

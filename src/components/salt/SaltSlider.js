@@ -13,7 +13,7 @@ import slide_4 from '../../assets/salt/slider/Yamy-Salt-5kg.jpg';
 const SaltSlider = () => {
   // Slider settings
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 1500,
     slidesToShow: 3,
@@ -84,6 +84,11 @@ const SaltSlider = () => {
           <h2>Salt Brands</h2>
         </div>
         <Slider {...settings}>{slides}</Slider>
+        <div className="visit-shop">
+          <button>
+            Visit Salt Shop
+          </button>
+        </div>
       </div>
     </div>
   );

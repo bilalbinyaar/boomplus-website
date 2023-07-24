@@ -7,6 +7,8 @@ import SaltStates from '../components/salt/SaltStates';
 import SaltMetric from '../components/salt/SaltMetric';
 import SaltSlider from '../components/salt/SaltSlider';
 import { Helmet } from 'react-helmet';
+import SaltFeatures from '../components/salt/SaltFeatures';
+import SaltCertificates from '../components/salt/SaltCertificates';
 
 const SaltHomepage = () => {
   return (
@@ -27,6 +29,8 @@ const SaltHomepage = () => {
       <SaltStates />
       <SaltMetric />
       <SaltSlider />
+      <SaltFeatures />
+      <SaltCertificates />
     </React.Fragment>
   );
 };
