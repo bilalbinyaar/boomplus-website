@@ -19,13 +19,13 @@ const Homepage = () => {
       <div className="container">
         <div className="homepage-content-wrapper">
           <div className="homepage-description">
-            <h3>
+            <h4>
               Boom Plus For Manufacturing and Commerce proudly Manufacture and
               Export <strong>Macaroni, Spaghetti, Wheat Flour </strong> and
               <strong> Salt</strong>! Our products are known around{' '}
               <strong>Africa</strong> and the <strong>Americas</strong> for high
               quality and reliability.
-            </h3>
+            </h4>
           </div>
           <div className="homepage-products-category">
             <div className="homepage-products salt-product">
