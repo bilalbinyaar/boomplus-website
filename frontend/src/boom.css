@@ -1,0 +1,804 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+:root {
+  --primary-green: #00a990;
+  --dark-gray: #434343;
+  --white: #ffffff;
+  --golden: #be9a30;
+  --light-gray: #e4e4e4;
+  --dark-green: #09777b;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 0rem;
+}
+
+@media screen and (min-width: 1880px) {
+  .container {
+    width: 68%;
+  }
+}
+
+h1 {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 45px;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  margin: 0;
+  color: var(--color-day-black);
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  margin: 0;
+  color: var(--color-day-black);
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  margin: 0;
+  color: var(--color-day-black);
+}
+
+p {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--color-day-black);
+  line-height: 20px;
+}
+
+li {
+  font-size: 14px;
+}
+
+button {
+  font-size: 16px;
+  background-color: var(--primary-green);
+  color: var(--white);
+  border: none;
+  text-decoration: none;
+  padding: 0.8rem 1.6rem;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: var(--dark-gray);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 568px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 10px;
+    margin-top: 6px;
+  }
+}
+
+.navbar-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.navbar-image img {
+  width: 350px;
+  height: auto;
+}
+
+.homepage-description {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.homepage-description h4 {
+  font-weight: 400;
+}
+
+.homepage-products-category {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0rem;
+  /* box-shadow: 1px 1px 8px 1px var(--dark-gray); */
+}
+
+.homepage-products {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wheat-product {
+  background-image: url(/src/assets/Home-Desktop-Flour.webp);
+}
+
+/* .salt-product {
+  background-image: url(/src/assets/Home-Desktop-Salt.webp);
+} */
+
+.pasta-product {
+  background-image: url(/src/assets/Home-Desktop-Pasta.webp);
+}
+
+.homepage-products button {
+  padding: 1rem 0rem;
+  width: 220px;
+  background-color: var(--primary-green);
+  border: none;
+  color: var(--white);
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.homepage-products button:hover {
+  background-color: var(--dark-gray);
+  cursor: pointer;
+}
+
+.footer {
+  background-color: var(--dark-gray);
+}
+
+.footer-wapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.footer-col img {
+  width: 250px;
+}
+
+.footer-col h2 {
+  color: var(--white);
+  font-size: 24px;
+  margin-bottom: 0.8rem;
+}
+
+.footer-col-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-col-items a {
+  text-decoration: none;
+  color: var(--white);
+  margin-bottom: 8px;
+}
+
+.footer-col-item {
+  display: flex;
+  margin-bottom: 8px;
+  align-items: center;
+}
+
+.col-icon {
+  margin-right: 8px;
+  color: var(--primary-green);
+}
+
+.col-value {
+  color: var(--white);
+}
+
+.width-fix {
+  width: 25%;
+}
+
+.social-icons {
+  color: var(--primary-green);
+}
+
+.social-icons a {
+  margin-right: 12px;
+  color: var(--primary-green);
+  font-size: 20px;
+}
+
+/* SALT NAV CSS */
+.salt-navbar .container {
+  padding: 1rem 0rem;
+}
+
+.salt-nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.salt-nav-logo img {
+  width: 140px;
+}
+
+.salt-nav-menu-items {
+  display: flex;
+}
+
+.salt-nav-menu-item {
+  list-style: none;
+  padding: 0.5rem;
+  margin: 0 0.2rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.salt-nav-menu-item:hover {
+  color: var(--primary-green);
+  cursor: pointer;
+}
+
+.dropdown svg {
+  font-size: 16px;
+  padding-left: 0.2rem;
+}
+
+.dropdown-menu {
+  background-color: var(--white);
+  padding: 1rem 0.2rem 1rem 1rem;
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  /* left: 0; */
+  box-shadow: 1px 1px 8px 1px var(--dark-gray);
+}
+
+.dropdown-menu-item {
+  width: 100%;
+  list-style: none;
+  padding: 0.5rem;
+  color: var(--dark-gray);
+}
+
+.dropdown-menu-item:hover {
+  color: var(--primary-green);
+  cursor: pointer;
+}
+
+.salt-nav-menu-item.dropdown:hover .dropdown-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.salt-nav-account button {
+  background-color: var(--primary-green);
+  border: none;
+  text-decoration: none;
+  padding: 0.7rem 1.6rem;
+  border-radius: 8px;
+}
+
+.salt-nav-account button a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.salt-nav-account button:hover {
+  background-color: var(--dark-gray);
+  cursor: pointer;
+}
+
+.salt-nav-language {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.salt-nav-language img {
+  width: 20px;
+  margin: 0 0.3rem;
+  border-radius: 50%;
+}
+
+.salt-nav-language img:hover {
+  cursor: pointer;
+  box-shadow: 0px 1px 5px 1px var(--dark-gray);
+}
+
+/* SALT BANNER CSS */
+.salt-banner {
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-image: url(/src/assets/salt/salt-home-banner.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.salt-banner-content {
+  display: flex;
+  justify-content: center;
+}
+
+.salt-banner-content-left {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.salt-banner-content-right {
+  width: 100%;
+}
+
+.salt-banner-content-left-top h2 {
+  color: var(--white);
+  margin-bottom: 0;
+  font-size: 32px;
+}
+
+.salt-banner-content-left-top h3 {
+  margin: 0.4rem 0 0 0;
+  color: var(--white);
+  font-size: 24px;
+}
+
+.salt-banner-content-left-bottom h1 {
+  color: var(--primary-green);
+  font-size: 54px;
+  line-height: 55px;
+  margin-top: 3rem;
+  text-transform: capitalize;
+}
+
+.btn-yes {
+  padding: 0.6rem 1.2rem;
+  width: 15%;
+  margin-top: 0.6rem;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--white);
+  color: var(--dark-gray);
+  font-weight: 600;
+  margin-right: 0.8rem;
+}
+
+.btn-yes:hover {
+  background-color: var(--dark-gray);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.get-price-btn {
+  padding: 0.6rem 1.2rem;
+  width: 15%;
+  margin-top: 0.6rem;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--primary-green);
+  color: var(--white);
+  font-weight: 600;
+  margin-right: 0.8rem;
+}
+
+.get-price-btn:hover {
+  background-color: var(--dark-gray);
+  color: var(--white);
+  cursor: pointer;
+}
+
+/* salt-process-title css */
+.salt-process-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.salt-process-title h2 {
+  text-transform: capitalize;
+}
+
+.salt-processes-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.salt-process {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 1rem 0; */
+  width: 70%;
+  margin: 0 1rem;
+  border: 1px solid var(--primary-green);
+}
+
+.salt-process h4 {
+  background-color: var(--primary-green);
+  color: var(--white);
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.salt-process p {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.salt-process img {
+  width: 100%;
+  border-top: 1px solid var(--primary-green);
+}
+
+/* SALT SALES CONTACT CSS */
+.cta-sales-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-sales-contact button {
+  background-color: var(--primary-green);
+  color: var(--white);
+  border: none;
+  padding: 0.8rem;
+  width: 30%;
+  margin-bottom: 0.8rem;
+  border-radius: 8px;
+}
+
+.cta-sales-contact button:hover {
+  background-color: var(--dark-gray);
+  cursor: pointer;
+}
+
+.sales-contact-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.sales-contact-content-right {
+  width: 100%;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-image: url(/src/assets/salt/Salt-Introduction.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sales-contact-content-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sales-contact-content h3 {
+  color: var(--white);
+  margin-bottom: 1.4rem;
+}
+
+.sales-contact-content button {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--primary-green);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.sales-contact-content button:hover {
+  background-color: var(--dark-gray);
+}
+
+.sales-contact-content button svg {
+  margin-right: 0.8rem;
+  font-size: 18px;
+}
+
+.sales-contact-content-left {
+  width: 100%;
+  padding: 1rem 2.4rem 1rem 2.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--primary-green);
+}
+
+.sales-contact-content-left h3 {
+  color: var(--white);
+  margin-bottom: 0.6rem;
+}
+
+.sales-contact-content-left p {
+  margin-bottom: 1.4rem;
+  text-align: justify;
+  color: var(--dark-gray);
+}
+
+.cta-bottom-sales {
+  background-color: var(--dark-gray);
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-bottom-sales h3 {
+  color: var(--white);
+  width: 52%;
+  line-height: 38px;
+  font-size: 22px;
+}
+
+.cta-bottom-sales button {
+  width: 30%;
+  background-color: var(--primary-green);
+  color: var(--white);
+  height: 5vh;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.cta-bottom-sales button:hover {
+  background-color: var(--white);
+  color: var(--dark-gray);
+  cursor: pointer;
+}
+
+/* salt-stats CSS */
+.section-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.stats-counter {
+  padding: 2rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.counter-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ml-counter {
+  margin-left: 0.4rem;
+}
+
+.counter-top h2 {
+  color: var(--golden);
+}
+
+.counter-item h3 {
+  font-weight: 500;
+  margin-top: 0.8rem;
+}
+
+/* SALT METRICS */
+.salt-metric {
+  width: 100%;
+  background-image: url(../src/assets/salt/Low-photo-banner-salt-page.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.salt-metric-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.metric-content {
+  width: 300px;
+  padding: 3rem;
+  background-color: var(--primary-green);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.metric-content h3 {
+  color: var(--white);
+  text-align: center;
+}
+
+.metric-content h2 {
+  color: var(--white);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* SALT SLIDER */
+
+.salt-slider .container {
+  padding: 3rem 0;
+}
+
+.slide-div {
+  margin-top: 1rem;
+}
+
+.slide-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  /* background-color: var(--dark-gray); */
+}
+
+.slide-product img {
+  width: 200px;
+  height: 200px !important;
+  height: auto;
+  margin: 0 auto;
+}
+
+.slide-td {
+  width: 95%;
+  height: 100px;
+  padding: 1rem;
+  background-color: var(--light-gray);
+}
+
+.slide-td h4 {
+  font-size: 18px;
+  color: var(--dark-green);
+}
+
+.slide-price {
+  display: flex;
+  align-items: center;
+}
+
+.slide-price span {
+  margin-right: 1rem;
+}
+
+.slide-price span h4 {
+  color: var(--primary-green);
+}
+
+.visit-shop {
+  margin-top: 2rem;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* SALT FEATUES */
+.salt-features {
+  background-image: url(/src/assets/salt/Salt-Shipmen-third-batch-6-scaled.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.salt-features .container {
+  padding: 3rem 0rem;
+}
+
+.features-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.features-left {
+  width: 100%;
+}
+
+.features-right {
+  width: 100%;
+}
+
+.features-right-content {
+  width: 100%;
+}
+
+.features-right-content h3 {
+  color: var(--primary-green);
+}
+
+.features-right-content p {
+  color: var(--white);
+  text-align: justify;
+}
+
+.features-left-content {
+  padding: 2rem;
+  background-color: var(--white);
+  width: 50%;
+}
+
+.features-inner {
+  display: flex;
+  align-items: center;
+}
+
+.features-icon {
+  margin-right: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-icon svg {
+  font-size: 20px;
+  color: var(--primary-green);
+}
+
+.features-inner span p {
+  color: var(--primary-green);
+}
+
+/* Salt Certificates CSS */
+.salt-certificates .container {
+  padding: 3rem 0;
+}
