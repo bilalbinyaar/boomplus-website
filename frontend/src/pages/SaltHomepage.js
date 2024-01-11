@@ -14,9 +14,7 @@ const SaltHomepage = () => {
   return (
     <React.Fragment>
       <Helmet>
-        <title>
-          Boom Plus | We proudly Produce and Export Salt!
-        </title>
+        <title>Boom Plus | We proudly Produce and Export Salt!</title>
         <meta
           name="description"
           content="Boom Plus Co. proudly produce and export Salt! Our products are known around Africa and the Americas for high quality and reliability."
@@ -30,7 +28,7 @@ const SaltHomepage = () => {
       <SaltMetric />
       <SaltSlider />
       <SaltFeatures />
-      <SaltCertificates />
+      {/* <SaltCertificates /> */}
     </React.Fragment>
   );
 };

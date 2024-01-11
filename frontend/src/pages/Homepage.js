@@ -59,7 +59,7 @@ const Homepage = () => {
           <div className="homepage-products-category">
             <div
               className="homepage-products salt-product"
-              style={backgroundStyle}
+              // style={backgroundStyle}
             >
               <Link to="/home-page-salt-product">
                 <button>Salt</button>

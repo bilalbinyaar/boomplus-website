@@ -147,9 +147,9 @@ button:hover {
   background-image: url(/src/assets/Home-Desktop-Flour.webp);
 }
 
-/* .salt-product {
+.salt-product {
   background-image: url(/src/assets/Home-Desktop-Salt.webp);
-} */
+}
 
 .pasta-product {
   background-image: url(/src/assets/Home-Desktop-Pasta.webp);
@@ -772,7 +772,7 @@ button:hover {
 }
 
 .features-left-content {
-  padding: 2rem;
+  padding: 1rem 2rem;
   background-color: var(--white);
   width: 50%;
 }
